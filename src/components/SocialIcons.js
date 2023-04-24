@@ -8,21 +8,23 @@ export default function SocialIcons() {
 
   return (
     <StyledSocialIcons>
-      <li>
-        <a onClick={handleClick} href="https://twitter.com">
-          <FaTwitter />
-        </a>
-      </li>  
-      <li>
-        <a onClick={handleClick} href="https://facebook.com">
-          <FaFacebook />
-        </a>
-      </li>  
-      <li>
-        <a onClick={handleClick} href="https://linkedin.com">
-          <FaLinkedin />
-        </a>
-      </li>
+      <ul>
+        <li>
+          <a onClick={handleClick} href="https://twitter.com">
+            <FaTwitter />
+          </a>
+        </li>  
+        <li>
+          <a onClick={handleClick} href="https://facebook.com">
+            <FaFacebook />
+          </a>
+        </li>  
+        <li>
+          <a onClick={handleClick} href="https://linkedin.com">
+            <FaLinkedin />
+          </a>
+        </li>
+      </ul>
     </StyledSocialIcons>
   )
 
